@@ -34,4 +34,5 @@ dependencies {
     implementation('com.h2database:h2')
     implementation('org.springframework.boot:spring-boot-starter-mustache') // mustache
     implementation('org.springframework.boot:spring-boot-starter-oauth2-client') // oauth2 (구글 로그인)
+    implementation('org.springframework.session:spring-session-jdbc')
 }
